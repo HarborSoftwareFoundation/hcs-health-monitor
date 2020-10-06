@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30524.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{554B1995-B7AC-4D38-B4CE-69051596740E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hcs.Health.Service", "src\Hcs.Health.Service\Hcs.Health.Service.csproj", "{D00AC356-5E03-4798-9992-2C004A11A4BD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C15D42A7-6B59-43BB-ABA7-C95BCA1F85B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D00AC356-5E03-4798-9992-2C004A11A4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00AC356-5E03-4798-9992-2C004A11A4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00AC356-5E03-4798-9992-2C004A11A4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00AC356-5E03-4798-9992-2C004A11A4BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15D42A7-6B59-43BB-ABA7-C95BCA1F85B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15D42A7-6B59-43BB-ABA7-C95BCA1F85B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15D42A7-6B59-43BB-ABA7-C95BCA1F85B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15D42A7-6B59-43BB-ABA7-C95BCA1F85B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D00AC356-5E03-4798-9992-2C004A11A4BD} = {554B1995-B7AC-4D38-B4CE-69051596740E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7ACD3D6-7427-4361-BFBA-00C504058539}
+	EndGlobalSection
+EndGlobal

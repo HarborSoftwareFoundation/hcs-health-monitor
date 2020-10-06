@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  hcs-health-service:
+    image: ${DOCKER_REGISTRY:-helix}/hcs/health-service:${PLATFORM:-linux}-${TAG:-latest}
+    build:
+      context: .
+      dockerfile: src/Hcs.Health.Service/Dockerfile

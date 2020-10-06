@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  hcs-health-service:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - "7112:80"
