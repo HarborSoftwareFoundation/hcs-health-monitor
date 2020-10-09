@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Hosting;
 
-namespace Helix.Hcs.Health.Service
+namespace Harbor.Hcs.Health.Service
 {
     public class Startup
     {

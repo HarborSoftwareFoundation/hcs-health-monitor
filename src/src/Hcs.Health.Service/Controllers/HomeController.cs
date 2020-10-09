@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
-namespace Helix.Hcs.Health.Service.Controllers
+namespace Harbor.Hcs.Health.Service.Controllers
 {
     public class HomeController : Controller
     {
