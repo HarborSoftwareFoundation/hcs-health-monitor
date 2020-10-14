@@ -18,4 +18,4 @@ RUN dotnet publish "Hcs.Health.Service.csproj" --no-restore -c Release -o /app/p
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Hcs.Health.Service.dll"]
+ENTRYPOINT ["dotnet", "Harbor.Hcs.Health.Service.dll"]
