@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30524.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{554B1995-B7AC-4D38-B4CE-69051596740E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hcs.Health.Service", "src\Hcs.Health.Service\Hcs.Health.Service.csproj", "{D00AC356-5E03-4798-9992-2C004A11A4BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hcs.Health.Monitor", "src\Hcs.Health.Monitor\Hcs.Health.Monitor.csproj", "{D00AC356-5E03-4798-9992-2C004A11A4BD}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C15D42A7-6B59-43BB-ABA7-C95BCA1F85B4}"
 EndProject

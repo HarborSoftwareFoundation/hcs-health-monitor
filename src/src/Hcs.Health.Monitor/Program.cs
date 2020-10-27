@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Harbor.Hcs.Health.Service
+namespace Harbor.Hcs.Health.Monitor
 {
     public class Program
     {

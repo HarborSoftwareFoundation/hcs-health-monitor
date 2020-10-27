@@ -1,8 +1,8 @@
 version: '3.7'
 
 services:
-  hcs-health-service:
-    image: ${DOCKER_REGISTRY:-harbor}/hcs/health-service:${PLATFORM:-linux}-${TAG:-latest}
+  hcs-health-monitor:
+    image: ${DOCKER_REGISTRY:-harbor}/hcs/health-monitor:${PLATFORM:-linux}-${TAG:-latest}
     build:
       context: .
-      dockerfile: src/Hcs.Health.Service/Dockerfile
+      dockerfile: src/Hcs.Health.Monitor/Dockerfile
