@@ -348,7 +348,7 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-# Harbor specifics
+# Parusnik specifics
 App_Data/
 artifacts/
 bin/

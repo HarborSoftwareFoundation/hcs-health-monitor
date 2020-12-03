@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <AssemblyName>Harbor.Hcs.Health.Monitor</AssemblyName>
-    <RootNamespace>Harbor.Hcs.Health.Monitor</RootNamespace>
+    <AssemblyName>Parusnik.Pcs.Health.Monitor</AssemblyName>
+    <RootNamespace>Parusnik.Pcs.Health.Monitor</RootNamespace>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>
     <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>

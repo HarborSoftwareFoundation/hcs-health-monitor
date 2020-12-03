@@ -6,7 +6,7 @@
     <ProjectGuid>c15d42a7-6b59-43bb-aba7-c95bca1f85b4</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
-    <DockerServiceName>hcs.health.service</DockerServiceName>
+    <DockerServiceName>pcs.health.service</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
-namespace Harbor.Hcs.Health.Monitor.Controllers
+namespace Parusnik.Pcs.Health.Monitor.Controllers
 {
     public class HomeController : Controller
     {

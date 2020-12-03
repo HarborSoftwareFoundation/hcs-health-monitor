@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Hosting;
 
-namespace Harbor.Hcs.Health.Monitor
+namespace Parusnik.Pcs.Health.Monitor
 {
     public class Startup
     {
