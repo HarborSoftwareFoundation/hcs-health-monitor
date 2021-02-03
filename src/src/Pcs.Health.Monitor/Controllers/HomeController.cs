@@ -1,4 +1,7 @@
-﻿using System.Linq;
+﻿// Copyright (c) Parusnik.
+// Licensed under the MIT License. See the LICENSE file in the project root for more information.
+
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 

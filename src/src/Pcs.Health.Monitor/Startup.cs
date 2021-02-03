@@ -1,3 +1,6 @@
+// Copyright (c) Parusnik.
+// Licensed under the MIT License. See the LICENSE file in the project root for more information.
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
